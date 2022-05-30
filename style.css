@@ -36,6 +36,7 @@ button {
 
 li {
   margin-top: 30px;
+  text-transform: capitalize;
 }
 
 li>hr {
