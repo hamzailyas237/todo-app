@@ -1,26 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TO DO APP</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div >
-        <input type="text" placeholder="enter what to do" id="todo_item">
-        <button onclick="addTodo()">add to do</button>
-        <button onclick="deleteAll()">Delete All</button>
+
+    <div class="container">
+        <div>
+            <input type="text" placeholder="Enter what to do" id="todo_item">
+        </div>
+
+        <div>
+            <button onclick="addTodo()">Add to do</button>
+            <button onclick="deleteAll()">Delete All</button>
+        </div>
     </div>
 
-    <div>
+    <div class="list-container">
         <ol id="list">
 
         </ol>
     </div>
 
 
-
     <script src="app.js"></script>
 </body>
+
 </html>

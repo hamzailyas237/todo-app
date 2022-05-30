@@ -7,10 +7,10 @@ function addTodo(){
     li.appendChild(liText);
     list.appendChild(li);
     todo_item.value = "";
+
     var hr = document.createElement("hr")
     li.appendChild(hr)
-    console.log(li)
-
+    
     var delBtn = document.createElement("button");
     var delText = document.createTextNode("DELETE");
     delBtn.appendChild(delText);
